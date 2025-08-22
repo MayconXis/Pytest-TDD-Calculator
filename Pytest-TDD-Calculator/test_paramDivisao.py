@@ -11,6 +11,9 @@ from calculadora import Calculadora
     (-10, 2, -5),      
     (-10, -2, 5)        
 ])
+#@pytest.mark.divisaoParam
 def test_divisao(a, b, resultado_esperado):
     calculadora = Calculadora()
     assert calculadora.divisao(a, b) == resultado_esperado
+
+    

@@ -10,6 +10,7 @@ from calculadora import Calculadora
     (12, -5, 7),        
     (-5, -5, -10)   
 ])
+#@pytest.mark.somaParam
 def test_soma(a, b, resultado_esperado):
     calculadora = Calculadora()
     assert calculadora.soma(a, b) == resultado_esperado
