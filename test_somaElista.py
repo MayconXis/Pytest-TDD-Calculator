@@ -7,3 +7,5 @@ def comprimento (lista) :
 def test_somar_e_comprimento() :
    assert somar (3,2) == 5
    assert comprimento ([1,2,3,4,5]) ==5
+   
+   #Este teste foi feito para aprendizado durante o curso de pytest da Udemy, não está relacionado ao calculadora

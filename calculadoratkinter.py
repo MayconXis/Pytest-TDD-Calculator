@@ -14,7 +14,6 @@ multiplica = FALSE
 adicao = FALSE
 subtracao = FALSE
 
-
 root.configure(background='#282828')
 
 e = Entry(root, width=15, borderwidth=4, relief=FLAT, fg='#ffffff', bg="#f38508", font=('futura', 25, 'bold'), justify=CENTER)
@@ -25,7 +24,6 @@ e.grid(
     columnspan=4,
     pady=2
 )
-
 #funções operadores
 def botao_click(num) :
     e.insert(END,num)
