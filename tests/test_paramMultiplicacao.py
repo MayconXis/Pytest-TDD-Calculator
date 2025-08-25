@@ -1,5 +1,5 @@
 import pytest
-from calculadora import Calculadora
+from main.calculadora import Calculadora
 
 # Esses testes parametrizados para a função soma foram realizados para aprendizado com base no curso da udemy, 
 # tendo o mesmo valor dos outros testes não parametizados

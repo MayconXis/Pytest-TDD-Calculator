@@ -1,3 +1,6 @@
+
+#Esta calculadora foi feita apenas para aprendizado e não esta relacionada ao projeto
+
 from tkinter import *
 import tkinter as tk
 
