@@ -11,7 +11,7 @@ from main.calculadora import Calculadora
     (-10, -5, -5)             
 ])
 
-#@pytest.mark.subtracaoParam
+@pytest.mark.subtracaoParam
 def test_subtracao(a, b, resultado_esperado):
     calculadora = Calculadora()
     assert calculadora.subtracao(a, b) == resultado_esperado

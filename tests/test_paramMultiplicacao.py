@@ -10,7 +10,7 @@ from main.calculadora import Calculadora
     (-2, 5, -10),       
     (-3, -3, 9)         
 ])
-#@pytest.mark.multiplicacaoParam
+@pytest.mark.multiplicacaoParam
 def test_multiplicacao(a, b, resultado_esperado):
     calculadora = Calculadora()
     assert calculadora.multiplicacao(a, b) == resultado_esperado
